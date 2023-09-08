@@ -47,3 +47,7 @@ export const getExpirationStatus = (config: SearchSessionsConfigSchema, expires:
     return { toolTipContent, statusContent };
   }
 };
+   
+ 
+
+

@@ -1,4 +1,4 @@
-:ems-asset-index-name: TriMet Positions
+:ems-asset-index-name: TriMet Positions 
 
 
 [role="xpack"]
@@ -8,7 +8,7 @@
 Are you interested in asset tracking? Good news! Visualizing and analyzing data that moves is easy with *Maps*. You can track the location of an IoT device and monitor a package or vehicle in transit.
 
 In this tutorial, you’ll look at live urban transit data from the city of Portland, Oregon. You’ll watch the city buses, tram, and trains, use the data to visualize congestion, and notify a dispatch team when a vehicle enters a construction zone.
-
+ 
 You’ll learn to:
 
 - Use {agent} to ingest the https://developer.trimet.org/ws_docs/[TriMet REST API] into {es}.
@@ -705,8 +705,6 @@ image::maps/images/asset-tracking-tutorial/alert_connector.png[]
 
 The *TriMet Alerts connector* is added to the *{connectors-ui}* page. For more information on common connectors, refer to the <<slack-action-type, Slack>> and <<email-action-type,Email>> connectors.
 
-
-
 [float]
 ==== Step 3. View alerts in real time
 
@@ -725,3 +723,5 @@ With the alert configured and running, in a few minutes your `trimet_alerts` ind
 image::maps/images/asset-tracking-tutorial/vehicle_alerts.png[]
 
 Congratulations! You have completed the tutorial and have the recipe for tracking assets. You can now try replicating this same analysis with your own data.
+
+
